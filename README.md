@@ -4,9 +4,14 @@ Per salvare i dati, il programma usa un file jsonl nella cartella del progetto. 
 Abbiamo studiato i datasheet del DHT11 e rele, oltre alla documentazione di DearpyGUI.
 
 durante lo svolgimento del progetto abbiamo riscontrato diverse problematiche, come:
+
 -Aggiornamento dei dati nei grafici
+
 -Ritardi nella rilevazione e aggiornamento dei dati
+
 -Lettura della seriale 
+
 -lettura dei dati del sensore DHT11
+
 
 Gruppo: Singh Manrayet, Togni Alessandro e Sharif Raja Abdul Ahad
