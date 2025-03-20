@@ -8,3 +8,5 @@ Aggiornamento dei dati nei grafici, Lettura della seriale
 
 
 Gruppo: Singh Manrayet, Togni Alessandro e Sharif Raja Abdul Ahad
+
+https://www.canva.com/design/DAGg8PEZpIE/TR3hvaZql0VnrQzRzvbvUQ/view?utm_content=DAGg8PEZpIE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
