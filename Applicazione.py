@@ -23,7 +23,7 @@ def read_serial():
                 line = ser.readline().decode('utf-8').strip()
                 if line:
                     data = json.loads(line)
-                    salva_dati(data)
+                    salva_dati(line)
                     temperatura = data["temperatura"]
                     umidita = data["umidita"]
                     time = data["time"]
@@ -64,9 +64,8 @@ def aggiorna_indicatori(temperatura_valore, umidita_valore):
 # Salva i valori in dati.jsonl
 def salva_dati(dati):
     with open(FILEDATI, 'a', encoding='utf-8') as f:
-        json.dump(dati, f)
+        f.write(dati)
         f.write('\n')
-        f.flush()
 
 # Avvia il thread per la lettura della seriale
 thread = threading.Thread(target=read_serial, daemon=True)
